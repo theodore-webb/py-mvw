@@ -6,5 +6,8 @@ setup(
     version='0.0.1',
     description='Utility functions used across workstreams.',
     url='https://github.com/theodore-webb/py-mvw',
-    author='TW Webb'
+    author='TW Webb',
+    entry_points = {
+        'console_scripts': ['mvw-cmd=mvw.__init__:init'],
+    }
 )
